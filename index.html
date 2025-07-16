@@ -1,93 +1,106 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>It-incubatordd precourse</title>
 </head>
+
 <body>
-   
-   
     <header>
         <span>IT-INCUBATOR</span>
     </header>
-
     <section data-cy="hw1-section-main-pre">
-       
-
         <h1>Cтишенок Евгений Владимирович </h1>
-       <p>Работаю на Мозырском нефтеперобатывыющем заводе , учился в БГТУ на инженера-механика, закончил университет в 2021 годую. Играю в футбол и катаюсь на велосипеде , люблю вкусно покушать</p>
-        <img src="https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/70/11/3e0884d5210d9dfdebb7cbdc07d5c0086688f139772cf796673220.jpg" alt="#">
+        <p>Работаю на Мозырском нефтеперобатывыющем заводе , учился в БГТУ на инженера-механика, закончил университет в
+            2021 годую. Играю в футбол и катаюсь на велосипеде , люблю вкусно покушать</p>
+        <img src="https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/70/11/3e0884d5210d9dfdebb7cbdc07d5c0086688f139772cf796673220.jpg"
+            alt="#">
     </section>
-
     <section data-cy="hw1-section-about-pre">
-       
-         <select >
-            <option >Minsk</option>
+        <select>
+            <option>Minsk</option>
             <option selected>Mozyr</option>
             <option>Gomel</option>
-         </select>
+        </select>
         <div data-cy="hw1-unordered-list-box-pre">
-           
-             <h2>Любимые страны</h2>
-             <ul>
+            <h2>Любимые страны</h2>
+            <ul>
                 <li>Беларусь</li>
                 <li>Франция</li>
                 <li>Словакия</li>
-             </ul>
+            </ul>
         </div>
         <div data-cy="hw1-ordered-list-box-pre">
-           
-             <h2>Любимые блюда</h2>
-             <ol>
+            <h2>Любимые блюда</h2>
+            <ol>
                 <li>Октопус</д>
                 <li>Пицца с пеперони</li>
                 <li>Жаренная картошка</li>
-                </ol>
+            </ol>
         </div>
         <div data-cy="hw1-skills-box-pre">
             <h2>Мои скиллы</h2>
-            <!-- 4) Здесь создай несколько чекбоксов с подписью (не меньше 3-х). 
-                - В подписи укажи названия любых тем по верстке (все, что знаешь или слышал). 
-                - Каждый чекбокс должен быть связан со своей подписью. Для этого чекбокс должен находиться в элементе для подписи
-                - Отметь "галочкой" (с помощью специального атрибута) темы, которые ты уже знаешь. -->
-                <label for="html">
-                    <input id="html" type="checkbox" name="html" checked>
-                    HTML
-                </label>
-                <label for="css">
-                    <input id="css" type="checkbox" name="css" checked>
-                    CSS
-                </label><label for="react">
-                    <input id="react" type="checkbox" name="react">
-                    React
-                </label>
-                <label for="style">
-                    <input id="angular" type="checkbox" name="angular">
-                    Angular
-                </label>
-                <label for="tipescript">
-                    <input id="tipescript" type="checkbox" name="tipescript">
-                    Tipescript
-                </label>
+            <label for="html">
+                <input id="html" type="checkbox" name="html" checked>
+                HTML
+            </label>
+            <label for="css">
+                <input id="css" type="checkbox" name="css" checked>
+                CSS
+            </label><label for="react">
+                <input id="react" type="checkbox" name="react">
+                React
+            </label>
+            <label for="style">
+                <input id="angular" type="checkbox" name="angular">
+                Angular
+            </label>
+            <label for="tipescript">
+                <input id="tipescript" type="checkbox" name="tipescript">
+                Tipescript
+            </label>
         </div>
-        <!-- 5) Создай здесь однострочное поле для ввода текста с подсказкой "Новый скилл", которая исчезает, когда начинаешь что-то печатать (для подсказки есть специальный атрибут) -->
-        <!-- 6) Создай здесь кнопку “Добавить” -->
-        <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
-         <input type="text" placeholder="Новый скилл">
-         <button>Добавить</button>
-         <hr>
-        
+        <input type="text" placeholder="Новый скилл">
+        <button>Добавить</button>
+        <hr>
         <table data-cy="hw-about-table-pre">
-            <!-- 8) В таблице сделай 5 строк и 3 столбца. 
-                        - В первой строке ячейки заголовков, в остальных обычные ячейки
-                        - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
-                        - В последнем ряду первая ячейка должна занимать 2 столбца (как должно выглядеть - смотри образец). Таблицу можно заполнять любыми данными -->
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>п/п</th>
+                        <th>Наименование</th>
+                        <th>Количество</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Монитор</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Клавитатура</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Мышь</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Итого:</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
         </table>
     </section>
     <footer data-cy="hw-footer-pre">
-        
-         <a href="https://it-incubator.io/" target="_blank">it-incubator</a>
+        <a href="https://it-incubator.io/" target="_blank">it-incubator</a>
     </footer>
 </body>
+
 </html>
